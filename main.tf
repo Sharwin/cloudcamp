@@ -8,6 +8,6 @@ resource "aws_s3_bucket" "bucket" {
   tags = {
     Name        = "cloudcamp-terraform"
     Environment = "prod"
-    workspace = "test"
+    workspace = "develop"
   }
 }
